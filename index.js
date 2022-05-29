@@ -42,11 +42,10 @@ function lakukanLooping(arrPegawai) {
   let jumlahWanita = null;
 
   for (let i = 0; i < dataYangAkanDilooping.length; i++) {
-    let namaLengkap = dataYangAkanDilooping[i].namaDepan + " " + dataYangAkanDilooping[i].namaBelakang;
-    if (dataYangAkanDilooping[i].jenisKelamin === "M") {
-      jumlahPria += 1;
+      if (dataYangAkanDilooping[i].jenisKelamin === "M") {
+        jumlahPria += 1;
     } else {
-      jumlahWanita += 1;
+        jumlahWanita += 1;
     }   
   }
   /*
